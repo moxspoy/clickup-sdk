@@ -11,7 +11,6 @@ const axiosClient = (token) => axios.create({
 });
 
 axiosClient().interceptors.request.use(request => {
-    console.log(request);
     return request;
 });
 

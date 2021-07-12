@@ -6,6 +6,6 @@ const ClickupSdk = (token) => {
         getUser: async (teamId, userId) => await api.get(`/team/${teamId}/user/${userId}`),
         getTask: async (id) => await api.get(`/task/${id}/`),
     }
-}
+};
 
 export default ClickupSdk;

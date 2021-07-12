@@ -1,0 +1,26 @@
+{
+  "name": "clickup-sdk",
+  "version": "1.0.0",
+  "description": "a new clickup sdk for nodejs application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moxspoy/clickup-sdk.git"
+  },
+  "keywords": [
+    "clickup"
+  ],
+  "author": "M Nurilman Baehaqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moxspoy/clickup-sdk/issues"
+  },
+  "homepage": "https://github.com/moxspoy/clickup-sdk#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

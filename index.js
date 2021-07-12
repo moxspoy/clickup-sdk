@@ -1,4 +1,4 @@
-import axiosClient from "./src/network";
+import axiosClient from "./src/network.js";
 
 let api = null;
 

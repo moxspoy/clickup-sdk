@@ -6,7 +6,7 @@ const ClickupSdk = (token) => {
         getUser: async (teamId, userId) => await api.get(`/team/${teamId}/user/${userId}`),
         getTask: async (id) => await api.get(`/task/${id}/`),
         updateTask: async (taskId, params) => await api.put(`/task/${taskId}/`, params),
-        updateTaskStatus: async (taskId, status) => await this.updateTask(taskId, {status}),
+        updateTaskStatus: async (taskId, status) => await api.put(`/task/${taskId}/`, {status}),
     }
 };
 

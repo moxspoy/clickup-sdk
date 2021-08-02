@@ -30,4 +30,31 @@ await ClickupSDK.getUser(`teamId`, `userId`);
 await ClickupSDK.getTask(`taskId`);
 ```
 
+### Update Task
+
+```js
+const payload = {
+    "name": "Updated Task Name",
+    "description": "Updated Task Content",
+    "status": "in progress",
+    "priority": 1,
+    "time_estimate": 8640000,
+    "assignees": {
+        "add": [
+            182
+        ],
+        "rem": [
+            183
+        ]
+    },
+    "archived": false
+};
+await ClickupSDK.updateTaskStatus(`taskId`, 'DONE');
+```
+
+### Update task status
+
+```js
+await ClickupSDK.upda(`taskId`);
+```
 

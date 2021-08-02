@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/moxspoy/clickup-sdk.git"
   },
+  "private": false,
   "keywords": [
     "clickup"
   ],

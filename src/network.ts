@@ -1,7 +1,7 @@
 import axios from "axios";
 import {BASE_URL, DEFAULT_TIMEOUT} from "./constants.js";
 
-const axiosClient = (token) => axios.create({
+const axiosClient = (token: string) => axios.create({
     baseURL: BASE_URL,
     timeout: DEFAULT_TIMEOUT,
     headers: {
@@ -10,12 +10,7 @@ const axiosClient = (token) => axios.create({
     }
 });
 
-axiosClient().interceptors.request.use(request => {
-    return request;
-});
-
-
-axiosClient().interceptors.response.use(response => {
+axios.interceptors.response.use(response => {
     try {
         return response.data;
     } catch (error) {

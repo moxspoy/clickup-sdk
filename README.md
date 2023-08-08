@@ -13,7 +13,7 @@ npm install clickup-sdk
 ### Init SDK
 
 ```js
-import ClickupSDK from 'clickup-sdk';
+import ClickupSDK from 'clickup-sdk/lib/index/js';
 
 ClickupSDK.setToken(`YOUR_TOKEN`);
 ```

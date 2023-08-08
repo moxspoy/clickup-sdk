@@ -1,5 +1,5 @@
 import axios from "axios";
-import {BASE_URL, DEFAULT_TIMEOUT} from "./constants";
+import {BASE_URL, DEFAULT_TIMEOUT} from "./constants.js";
 
 const axiosClient = (token: string) => axios.create({
     baseURL: BASE_URL,

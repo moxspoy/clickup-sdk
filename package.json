@@ -1,6 +1,6 @@
 {
   "name": "clickup-sdk",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a new clickup sdk for nodejs application",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 # Node Client for ClickUp API
 
-Clickup SDK version 2
+Clickup SDK version 2 with Typescript support
 
 ## Install
 
@@ -13,7 +13,7 @@ npm install clickup-sdk
 ### Init SDK
 
 ```js
-import ClickupSDK from 'clickup-sdk/lib/index/js';
+import ClickupSDK from 'clickup-sdk';
 
 ClickupSDK.setToken(`YOUR_TOKEN`);
 ```

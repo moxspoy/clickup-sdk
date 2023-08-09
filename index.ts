@@ -1,4 +1,4 @@
-import axiosClient from "./src/network.js";
+import axiosClient from "./src/network";
 
 const ClickupSdk = (token: string) => {
     const api = axiosClient(token);
